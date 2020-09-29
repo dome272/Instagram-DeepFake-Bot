@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
   * replace entire folder with [my updated autocrop](https://github.com/dome272/Instagram-DeepFake-Bot/blob/face_detection/autocrop)
 * deepfake.py requires numpy=1.15 -> we need a feature from numpy=1.16
   * locate numpy-core (/usr/local/lib/python3.6/dist-packages/numpy/core)
-  * replace function_base.py with [my updated numpy function_base.py](https://github.com/dome272/Instagram-DeepFake-Bot/blob/files/function_base.py)
+  * replace function_base.py with [my updated numpy function_base.py](https://github.com/dome272/Instagram-DeepFake-Bot/blob/master/files/function_base.py)
 * Additional things:
   * ffmpeg
   * cuda
