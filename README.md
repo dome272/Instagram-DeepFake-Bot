@@ -63,6 +63,9 @@ To get a local copy up and running follow these simple example steps.
 Instagram [@dome271](https://instagram.com/dome271) 
 Email: d6582533@gmail.com
 
+## Support me
+https://paypal.me/dome271
+
 <p align="center">
   <a href="https://github.com/dome272/Instagram-DeepFake-Bot">
     <img src="files/logo.png" alt="Logo" width="80" height="80">
