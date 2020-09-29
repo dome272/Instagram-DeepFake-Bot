@@ -3,11 +3,16 @@
 # Instagram-DeepFake-Bot
 An Instagram Bot serving as an account, people can use to create DeepFakes on Instagram.
 
+The DeepFakes are created using [First Order Model for Image Animation](https://github.com/AliaksandrSiarohin/first-order-model) and the Faces are cropped using [Ultra-Light-Fast-Generic-Face-Detector](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB)
+
 <p align="center">
   <a href="https://github.com/dome272/Instagram-DeepFake-Bot">
     <img src="files/logo.png" alt="Logo" width="80" height="80">
   </a>
 </p>
+
+# Explain Video:
+[![DeepFake Video on Youtube](https://i.imgur.com/JvnD4XC.png)](https://www.youtube.com/watch?v=qKWYGH8iSng)
 
 # Disclaimer:
 The code needed a lot of configuring in order to work in my specific workplaces. 
