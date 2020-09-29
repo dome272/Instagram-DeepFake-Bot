@@ -1,5 +1,0 @@
-- Server: vast.ai, nvidia/cuda:10.2-cudnn8-runtime-ubuntu18.04, 1x GTX 1080
-- install requirements
-- compile opencv new: follow https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html, pip3 install opencv-python, follow https://github.com/opencv/opencv/issues/8471#issuecomment-321199220
-- change numpy.1.15: why? np.linspace didnt work with arrays in 1.15 -> take code vom 1.16 (take function_base.py and replace it)
-- replace autocrop library with folder autocrop
