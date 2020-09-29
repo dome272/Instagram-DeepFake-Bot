@@ -27,26 +27,30 @@ To get a local copy up and running follow these simple example steps.
   * locate numpy-core (/usr/local/lib/python3.6/dist-packages/numpy/core)
   * replace function_base.py with [my updated numpy function_base.py](https://github.com/dome272/Instagram-DeepFake-Bot/files/function_base.py)
 * Additional things:
+  * ffmpeg
   * cuda
   * opencv (I had to recompile it on Ubuntu 18.04.4) -> [Install Opencv](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html) and follow [this guide](https://github.com/opencv/opencv/issues/8471#issuecomment-321199220)
   * GPU (I used a GTX 1080 renting on [vast.ai](https://vast.ai/console/create/))
   
 
-### Installation
+### Running it
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+1. Edit [main.py](https://github.com/dome272/Instagram-DeepFake-Bot/main.py) on line 596 with your account details.
+2. ```python3.6 main.py```
+3. Wait for the Instagram-Login to happen.
+4. Wait for Checker-,Editor-,and Sender-Class to be initialised.
+
+
+### Adding ranks to users
+1. Go to [other_tools](https://github.com/dome272/Instagram-DeepFake-Bot/other_tools)
+2. Run ```python3.6 add_donator username rank```
+  * Rank 1: 30 seconds videos + priority queue
+  * Rank 2: 45 seconds videos + priority queue + watermark removal
+  * Rank 3: 60 seconds videos + priority queue + watermark removal
+  * (Every other user is initially Rank 0)
+
+### Checking stats
+* all stats can be found in log.json
 
 
 
