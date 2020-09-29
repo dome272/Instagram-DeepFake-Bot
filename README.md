@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 * Install autocrop
 ```pip install autocrop```
   * locate autocrop (/usr/local/lib/python3.6/dist-packages/autocrop)
-  * replace entire folder with [my updated autocrop](https://github.com/dome272/Instagram-DeepFake-Bot/blob/face_detection/autocrop)
+  * replace entire folder with [my updated autocrop](https://github.com/dome272/Instagram-DeepFake-Bot/tree/master/face_detection/autocrop)
 * deepfake.py requires numpy=1.15 -> we need a feature from numpy=1.16
   * locate numpy-core (/usr/local/lib/python3.6/dist-packages/numpy/core)
   * replace function_base.py with [my updated numpy function_base.py](https://github.com/dome272/Instagram-DeepFake-Bot/blob/master/files/function_base.py)
@@ -48,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Adding ranks to users
-1. Go to [other_tools](https://github.com/dome272/Instagram-DeepFake-Bot/blob/other_tools)
+1. Go to [other_tools](https://github.com/dome272/Instagram-DeepFake-Bot/tree/master/other_tools)
 2. Run ```python3.6 add_donator username rank```
   * Rank 1: 30 seconds videos + priority queue
   * Rank 2: 45 seconds videos + priority queue + watermark removal
