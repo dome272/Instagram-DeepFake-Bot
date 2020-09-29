@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://github.com/dome272/Instagram-DeepFake-Bot">
-    <img src="files/logo.png" alt="Logo" width="80" height="80">
-  </a>
-</p>
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Issues][issues-shield]][issues-url]
 # Instagram-DeepFake-Bot
@@ -68,6 +62,12 @@ To get a local copy up and running follow these simple example steps.
 ## Contact
 Instagram [@dome271](https://instagram.com/dome271) 
 Email: d6582533@gmail.com
+
+<p align="center">
+  <a href="https://github.com/dome272/Instagram-DeepFake-Bot">
+    <img src="files/logo.png" alt="Logo" width="80" height="80">
+  </a>
+</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
