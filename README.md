@@ -14,14 +14,23 @@ Run it at your own risk.
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Prerequisites & Installation
 
 * Code was written and tested in Python 3.6.5 and 3.6.10
 * Install the requirements.txt
+```pip install -r requirements.txt```
 * Install autocrop
 ```pip install autocrop```
   * locate autocrop (/usr/local/lib/python3.6/dist-packages/autocrop)
   * replace entire folder with [my updated autocrop](https://github.com/dome272/Instagram-DeepFake-Bot/face_detection/autocrop)
+* deepfake.py requires numpy=1.15 -> we need a feature from numpy=1.16
+  * locate numpy-core (/usr/local/lib/python3.6/dist-packages/numpy/core)
+  * replace function_base.py with [my updated numpy function_base.py](https://github.com/dome272/Instagram-DeepFake-Bot/files/function_base.py)
+* Additional things:
+  * cuda
+  * opencv (I had to recompile it on Ubuntu 18.04.4) -> [Install Opencv](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html) and follow [this guide](https://github.com/opencv/opencv/issues/8471#issuecomment-321199220)
+  * GPU (I used a GTX 1080 renting on [vast.ai](https://vast.ai/console/create/))
+  
 
 ### Installation
 
