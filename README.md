@@ -15,11 +15,6 @@ I tried making it as easy as possible to run it yourself. Errors may occur!
 Run it at your own risk.
 
 
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites & Installation
 
 * Code was written and tested in Python 3.6.5 and 3.6.10
