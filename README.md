@@ -58,8 +58,6 @@ Run it at your own risk.
 Instagram [@dome271](https://instagram.com/dome271) 
 Email: d6582533@gmail.com
 
-## Support me
-https://paypal.me/dome271
 
 <p align="center">
   <a href="https://github.com/dome272/Instagram-DeepFake-Bot">
